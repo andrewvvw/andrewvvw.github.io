@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <b>@andrewvvw</b> | Thank you for joining me on my developer journey
+    </header>
+
+    <ul class="ul">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <section class="features">
+        <div class="bg-banner"></div>
+        <div class="bg-text">
+            <h1>Andrew Gallegos</h1>
+            <p>Projects</p>
+        </div>
+    </section>
+
+
+    <section class="description">
+        <div class="container">
+            <h2><strong>Projects</strong></h2>
+        </div>
+        <strong>Key Signature Generator</strong>
+        <p>This program takes a user input for a starting pitch and
+            generates the necessary musical accidentals (flats & sharps)
+            for the diatonic major key. Any pitch entered that is not a
+            valid pitch or unorthodox enharmonic will produce an error.
+        </p>
+        Starting pitch:<br>
+        <input type="text" value="" id="input" class="input" oninput="keyConvert()" />
+        <section>
+            <button class="btn" style="  padding:5px 5px 5px 5px;
+                  font-size:12px;"> Get Key</button>
+        </section>
+        Output:<br>
+        <input type="text" value="" id="output" readonly />
+
+
+
+
+        <br>
+
+        <br>
+        <strong>Last Updated: </strong><i>February 12, 2022</i>
+    </section>
+
+
+
+    <footer>
+        <strong>Andrew Gallegos</strong><br>
+        Mobile | <a>(224) 321.3161</a><br>
+        Email | <a href="mailto: andrewvvw@gmail.com" target="_blank">andrewvvw@gmail.com</a><br>
+        Twitter | <a href="http://www.twitter.com/andrewvvw" target="_blank">@andrewvvw</a><br>
+        Github | <a href="http://www.github.com/andrewvvw" target="_blank">@andrewvvw</a> (<i>Under
+            Construction</i>)<br>
+        <i>"1% better, everyday!"</i>
+        <br>
+    </footer>
+
+</body>
+
+</html>
