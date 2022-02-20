@@ -83,7 +83,7 @@ section {
 
 
 .bg-banner {
-  background-image: url("public/images/banner.jpg");
+  background-image: url("/banner.jpg");
   z-index:1;
   -webkit-filter: blur(3px);
   filter:blur(3px);
